@@ -1,11 +1,14 @@
 import React from 'react'
 
-const box = () => {
+const Box = (props) => {
   return (
-    <div>
-      
+    <div className='flex justify-between '>
+      <span style={{color:" #768396"}} className='p-2'>
+        {props.title}
+      </span>
+      <span className=' p-2'>{props.value}</span>
     </div>
   )
 }
 
-export default box
+export default Box
