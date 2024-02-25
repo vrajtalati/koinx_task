@@ -3,12 +3,14 @@ import Card from '../miscellenious/Card';
 
 const Team = () => {
   return (
-    <div className='grid gap-4'>
-      <h1>Team</h1>
-      <p>Lorem ipsum dolor sit amet consectetur. Id consequat adipiscing arcu nibh. Eget mattis in mi integer sit egestas. Proin tempor id pretium quam. Facilisis purus convallis quam augue.</p>
+    <div className=' h-auto block p-3'>
+      <h1 className='text-xl font-bold pl-5'>Team</h1>
+      <div className='pl-5  ' >Lorem ipsum dolor sit amet consectetur. Id consequat adipiscing arcu nibh. Eget mattis in mi integer sit egestas. Proin tempor id pretium quam. Facilisis purus convallis quam augue.</div>
+     <div className=''> 
+      <Card />
       <Card/>
       <Card/>
-      <Card/>
+      </div>
     </div>
   )
 }

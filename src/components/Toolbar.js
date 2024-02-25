@@ -2,7 +2,7 @@ import React from 'react';
 
 const Toolbar = () => {
   return (
-    <div className='grid grid-cols-7 gap-2'>
+    <div className='overflow-auto w-100 flex flex-row flex-wrap  gap-6'>
       <button className='hover:text-blue-500 hover:underline'>Overview</button>
       <button className='hover:text-blue-500 hover:underline'>Fundamentals</button>
       <button className='hover:text-blue-500 hover:underline'>News Insights</button>

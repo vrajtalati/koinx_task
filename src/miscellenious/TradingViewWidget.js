@@ -14,15 +14,15 @@ function TradingViewWidget() {
         {
           "symbols": [
             [
-              "BITSTAMP:BTCUSD|1D"
+              "COINBASE:BTCUSD|1D"
             ]
           ],
           "chartOnly": false,
-          "width": "100%",
-          "height": "100%",
+          "width": 550,
+          "height": 400,
           "locale": "en",
-          "colorTheme": "light",
-          "autosize": true,
+          "colorTheme": "dark",
+          "autosize": false,
           "showVolume": false,
           "showMA": false,
           "hideDateRanges": false,
