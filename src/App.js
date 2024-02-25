@@ -5,7 +5,7 @@ import Performance from './components/Performance';
 import GetStarted from './components/GetStarted';
 import TrendingCoins from './components/TrendingCoins';
 import Toolbar from './components/Toolbar';
-import Task3 from './components/Task3';
+
 import Header from './components/Header';
 
 function App() {
