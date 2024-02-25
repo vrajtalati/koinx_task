@@ -1,6 +1,7 @@
 import React from 'react';
-// import Box from '../miscellenious/b';
-import Box from '../miscellenious/Box';
+
+
+import Boc from '../miscellenious/Boc';
 
 const Performance = () => {
   return (
@@ -45,17 +46,17 @@ const Performance = () => {
       <h1>Fundamentals</h1>
       <div className='grid sm:grid-cols-2'>
         <div className='font-inter text-base font-medium leading-5 m-2'>
-          <Box title="Bitcoin Price" value="$16,815.46"/>
-          <Box title="24h Low / 24h High" value="$16,382.07 / $16,874.12"/>
-          <Box title="Bitcoin Price" value="$16,815.46"/>
-          <Box title="Bitcoin Price" value="$16,815.46"/>
+          <Boc title="Bitcoin Price" value="$16,815.46"/>
+          <Boc title="24h Low / 24h High" value="$16,382.07 / $16,874.12"/>
+          <Boc title="Bitcoin Price" value="$16,815.46"/>
+          <Boc title="Bitcoin Price" value="$16,815.46"/>
           
         </div>
         <div className='font-inter text-base font-medium leading-5 m-2'>
-        <Box title="Bitcoin Price" value="$16,815.46"/>
-          <Box title="24h Low / 24h High" value="$16,382.07 / $16,874.12"/>
-          <Box title="Bitcoin Price" value="$16,815.46"/>
-          <Box title="Bitcoin Price" value="$16,815.46"/>
+        <Boc title="Bitcoin Price" value="$16,815.46"/>
+          <Boc title="24h Low / 24h High" value="$16,382.07 / $16,874.12"/>
+          <Boc title="Bitcoin Price" value="$16,815.46"/>
+          <Boc title="Bitcoin Price" value="$16,815.46"/>
         </div>
       </div>
     </div>
